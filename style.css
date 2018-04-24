@@ -1,0 +1,24 @@
+.wumbo{
+    height: 400px;
+}
+
+#dog{
+    position:absolute;
+    left: 432px;
+    top: 300px;
+}
+
+#stage{ 
+    position: relative; /* necessary to do absolute positioning of the image relative to this div's position */
+    overflow: hidden;  /* hide the image when it is off the stage */
+    height: 500px;
+
+    
+    /* set div's size and layout */
+    /* width: 500px;
+    height: 400px; */
+    /* margin: 0 auto; */
+    
+    /* put a border around it so we can see where it ends */
+    /* border: 1px solid #ccc; */
+    }
