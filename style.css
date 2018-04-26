@@ -4,9 +4,13 @@
 
 #dog{
     position:absolute;
-    left: 432px;
-    top: 300px;
+
 }
+
+#dog2{
+    position:absolute;
+}
+
 
 #stage{ 
     position: relative; /* necessary to do absolute positioning of the image relative to this div's position */
